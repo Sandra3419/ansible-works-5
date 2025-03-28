@@ -1,10 +1,10 @@
 ---
 - name: Deploy Static Page
-  hosts: all
+  hosts: g1
   become: yes
 
   tasks:
-    - name: Copy Static HTML File
+    - name: Update Static page
       copy:
         src: static.html
         dest: /var/www/html/index.html
