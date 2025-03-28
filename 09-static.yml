@@ -5,7 +5,8 @@
 
   tasks:
   - name: Update static page
-    copy:
-      src: ststic.html
-      dest: /var/www/html/static.html
+  copy:
+    src: static.html  
+    dest: /var/www/html/index.html
+
 ...
