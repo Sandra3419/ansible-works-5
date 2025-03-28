@@ -12,7 +12,7 @@
 
     - name: Deploy dynamic HTML file
       template:
-        src: dynamic.j2   
+        src: dynamic.j2  
         dest: /var/www/html/index.html
 
 ...
