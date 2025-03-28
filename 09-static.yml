@@ -2,6 +2,7 @@
 - name: Deploy Static Page
   hosts: g1
   become: yes
+  
   tasks:
     - name: Copy Static HTML File
       copy:
