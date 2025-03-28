@@ -1,8 +1,8 @@
 ---
 - name: Deploy Static Page
-  hosts: all
+  hosts: g1
   become: yes
-  
+
   tasks:
     - name: Ensure /var/www/html directory exists
       file:
