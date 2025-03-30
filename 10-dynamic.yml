@@ -5,8 +5,8 @@
 
   tasks:
     - name: Update static page
-  template:
-    src: templates/dynamic.j2
-    dest: /var/www/html/index.html
+      template:
+        src: dynamic.j2  
+        dest: /var/www/html/dynam.html
 
-...
+... 
