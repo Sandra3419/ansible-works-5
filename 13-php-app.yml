@@ -1,5 +1,5 @@
 ---
-- name: Deloy php App
+- name: Deploy php App
   hosts: n3
   become: yes
 
