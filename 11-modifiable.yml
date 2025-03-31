@@ -1,0 +1,14 @@
+---
+- name: Modifiable Demo
+  hosts: g1
+  become: yes
+  vars:
+    myusername: Sandra Banks
+
+  tasks:
+    - name: Update Dynamic page
+      template:
+        src: dynamic.jinja2  
+        dest: /var/www/html/dynam.html
+
+... 
